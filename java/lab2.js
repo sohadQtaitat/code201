@@ -6,6 +6,10 @@ var name = prompt('What is your Name ,Please !');
 console.log('name' + name);
 alert('Welcome ' + name + ' how are you , i want to ask you some question please');
 
+
+
+var point = 0;
+ 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -15,6 +19,7 @@ var AQ1 = 4;
 
 if (fav1 == AQ1) {
     alert('Correct answer ... good job');
+point = point+1;
 }
 
 
@@ -52,6 +57,8 @@ var AQ2 = 8;
 
 if (fav2 == AQ2) {
     alert('Correct answer ... good job');
+    point = point+1;
+
 }
 
 
@@ -85,6 +92,8 @@ var AQ3 = 7;
 
 if (fav3 == AQ3) {
     alert('Correct answer ... good job');
+    point = point+1;
+
 }
 
 
@@ -118,6 +127,8 @@ var AQ4 = 8;
 
 if (fav4 == AQ4) {
     alert('Correct answer ... good job');
+    point = point+1;
+
 }
 
 
@@ -151,6 +162,8 @@ var AQ5 = 5;
 
 if (fav5 == AQ5) {
     alert('Correct answer ... good job');
+    point = point+1;
+
 }
 
 
@@ -183,6 +196,8 @@ var AQ56 = 9;
 
 if (fav6 == AQ6) {
     alert('Correct answer ... good job');
+    point = point+1;
+
 }
 
 
@@ -218,7 +233,6 @@ else {
 var fav7 = prompt('What are multiples of 2 which less than 16');
 
 var answers = [4, 6, 8, 10, 12, 14];
-var point = 0;
 var leftAttembet = fav7.length - 1;
 
 for (var i = 0; i < fav7.length; i++) {
@@ -249,189 +263,19 @@ alart(answers);
 
 
 
-
-
-/*
-    switch (fav7) {
-
-        case 4 :
-        case 6 :
-        case 8 :
-        case 10 :
-        case 12 :
-        case 14 :
-
-          alert( 'correct answer ... god job ');
-          break;
-
-        case 'NO':
-        case 'N':
-          alert(currentNegativeReply);
-          break;
-
-        default:
-          alert(' Wrong Answer!');
-      }
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      for (var i = 0; i < questions.length; i++) {
-
-        var currentQuestion = questions[i]; // array of 3 items [prompt, positive, negative]
-
-        var promptIndex = 0;
-
-        var positiveIndex = 1;
-
-        var negativeIndex = 2;
-
-        var currentPrompt = currentQuestion[promptIndex];
-
-        var userResponse = prompt(fav7);
-
-
-
-        switch (userResponse) {
-
-          case 'YES':
-          case 'Y':
-            alert(currentPositiveReply);
-            break;
-
-          case 'NO':
-          case 'N':
-            alert(currentNegativeReply);
-            break;
-
-          default:
-            alert(' Wrong Answer!');
-        }
-
-      }
-
-
-
-
-
-
-
-
-
-else {
-
-    for (var i = 1; i <= 6; i++) {
-
-
-        if (fav < AQ5) {
-
-            alert(' sorry your answer is too low  ...please try again :)')
-        }
-
-        else if (fav > AQ5) {
-            alert(' sorry your answer is too high  ...please try again :)')
-
-        }
-
-        else {
-            alert('I\'m sorry '+name + 'your attempts are over  , the corrsct amswer is 5')
-        }
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/////////////////////////////////////////////////////////////////////////
-
-
-
-
-/*var q1 = prompt('Are you happy :)')
+var q1 = prompt('Are you happy :)')
 
 q1 = q1.toLowerCase();
 
 if (q1 == 'yes') {//YES,yEs,YEs,
     alert('I\'m Very happy to see you happy  ');
+    point = point+1;
+
 }
 else if (q1 == 'y') {
     alert('I\'m Very happy to see you happy  ');
+    point = point+1;
+
 }
 
 else if (q1 == 'no') {
@@ -445,22 +289,30 @@ else {
 
     alert('Be happy' + name);
 }
+
+
+
 //***************************************************************** */
 
-/*var q3 = prompt('do you love to eat vegetarian food :)')
+var q3 = prompt('do you love to eat vegetarian food :)')
 
 q3 = q3.toLowerCase();
 
 
 if (q3 == 'yes') {//YES,yEs,YEs,
     alert(' Great ......is very help for healthy ....  ');
+    point = point+1;
+
 }
 else if (q3 == 'y') {
     alert(' Great ......is very help for healthy ....  ');
+    point = point+1;
+
 }
 
 else if (q3 == 'no') {
     alert(' Try to be vegetarian is help your healthy  ');
+    
 }
 else if (q3 == 'n') {
     alert(' Try to be vegetarian is help your healthy  ');
@@ -476,16 +328,20 @@ else {
 //************************************************************* */
 
 
-/*var q4 = prompt('Do you love to hear music:)')
+var q4 = prompt('Do you love to hear music:)')
 
 q4 = q4.toLowerCase();
 
 
 if (q4 == 'yes') {//YES,yEs,YEs,
     alert('Good .... music make mind comfortbal  ');
+    point = point+1;
+
 }
 else if (q4 == 'y') {
     alert('Good .... music make mind comfortbal  ');
+    point = point+1;
+
 }
 
 else if (q4 == 'no') {
@@ -502,16 +358,20 @@ else {
 
 
 
-/*var q5 = prompt('Are you older than me  :)')
+var q5 = prompt('Are you older than me  :)')
 
 q5 = q5.toLowerCase();
 
 
 if (q5 == 'yes') {//YES,yEs,YEs,
     alert('give me  advice  ');
+    point = point+1;
+
 }
 else if (q5 == 'y') {
     alert('give me  advice  ');
+    point = point+1;
+
 }
 
 else if (q5 == 'no') {
@@ -528,16 +388,19 @@ else {
 
 
 
-/*var q2 = prompt('Do you love me :p !!!)')
+var q2 = prompt('Do you love me :p !!!)')
 
 q2 = q2.toUpperCase();
 
 
 if (q2 == 'YES') {//YES,yEs,YEs,
     alert('Thank you ... i love you too  ');
+    point=point+1
 }
 else if (q2 == 'Y') {
     alert('Thank you ... i love you too  ');
+    point = point+1;
+
 }
 
 else if (q2 == 'NO') {
@@ -551,6 +414,32 @@ else {
 
     alert('Be always in love ');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
