@@ -9,8 +9,18 @@ alert('Welcome ' + name + ' how are you , i want to ask you some question please
 
 
 var point = 0;
+
  
 ///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
 
 
 var fav1 = prompt('Who much 2+2 ? Please write your answer !?');
