@@ -26,12 +26,12 @@ var questions
         ],
         [
             " Do you think i love summer?",
-            " No ,  i winter",
+            " No ,  i love winter",
             " yes ... i love winter",
             "Try again"
         ],
         [
-            "Do you thinl i love website programming",
+            "Do you think i love website programming",
             " yes i love , but i love network more",
             " i love it ,, but i love networking more",
             "Try again"
